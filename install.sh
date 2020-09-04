@@ -61,7 +61,7 @@ clone_repo(){
     echo "进行初始化。。。"
     git clone https://github.com/CCChieh/IBMYes
     cd IBMYes
-    git submodule update --init --recursive
+    git clone https://github.com/zcmimi/v2ray-cloudfoundry
     cd v2ray-cloudfoundry/v2ray
     # Upgrade V2Ray to the latest version
     rm v2ray v2ctl
